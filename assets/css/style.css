@@ -1,0 +1,103 @@
+html {
+  scroll-behavior: smooth;
+  /*Enable scmooth scrolling*/
+}
+
+body {
+  padding: 100px 0 0 0 !important;
+  margin: 0;
+}
+
+body .bg-transparent {
+  -webkit-transition: 350ms ease;
+  transition: 350ms ease;
+}
+
+body .bg-transparent.scrolled {
+  background-color: #F3976C !important;
+}
+
+body main ol > li {
+  margin-bottom: 2rem;
+}
+
+body main ul > li img {
+  margin: 2rem 0 1rem 0;
+}
+
+body footer {
+  background-color: #F3976C;
+}
+
+body footer ul {
+  list-style: none;
+}
+
+body footer section img {
+  width: 2%;
+  margin: 0 10px 0 10px;
+}
+
+body a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+body a:hover {
+  background-color: white;
+}
+
+body h2 {
+  padding: 2rem;
+}
+
+body h3 {
+  padding-bottom: 2rem;
+}
+
+.navbar-nav li > a:hover {
+  text-decoration: underline !important;
+}
+
+.title {
+  padding: 3rem;
+  background-color: #F3976C;
+  margin-bottom: 3rem;
+}
+
+.meta-img img:first-child, .alt-img img:first-child {
+  margin-bottom: 0.25rem;
+}
+
+hr {
+  width: 100%;
+  height: 2rem;
+  border: 1px solid black;
+}
+
+.title-container {
+  margin-bottom: 2rem;
+}
+
+.semantic-container, .keywords-container {
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.semantic-container:hover, .keywords-container:hover {
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+}
+
+@media (max-width: 768px) {
+  .title {
+    margin-top: 7rem;
+  }
+  .title h1 {
+    font-size: 30px !important;
+  }
+  .title p {
+    font-size: 15px !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
