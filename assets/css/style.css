@@ -27,13 +27,14 @@ body main ul > li img {
 
 body footer {
   background-color: #F3976C;
+  padding: 2rem 0;
 }
 
 body footer ul {
   list-style: none;
 }
 
-body footer section img {
+body footer img {
   width: 2%;
   margin: 0 10px 0 10px;
 }
